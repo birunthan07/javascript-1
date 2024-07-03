@@ -1,0 +1,74 @@
+
+
+
+
+.hero {
+    background-image: url('hotel.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: #80e4f6;
+    border-radius: 10px;
+}
+
+/* Modal styling */
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 40px;
+}
+.modal h1{
+    color: rgb(192, 204, 27);
+}
+
+.modal-content {
+    background-color: #111010;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    
+}
+
+.close {
+    color: #faf0f0;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+input {
+
+    width: 100%;
+}
+
+.modal button{
+    align-self: center;
+}
